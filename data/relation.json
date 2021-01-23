@@ -1,0 +1,92 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server1",
+      "author": "typicode1"
+    },
+    {
+      "id": 3,
+      "title": "json-server",
+      "author": "Shivam"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "I addec this comment",
+      "postId": 2
+    }
+  ],
+  "weather": [
+    {
+      "City": "Hyderabad",
+      "Temperature": "31.49 Degree celsius",
+      "Humidity": "62 Percent",
+      "Weather Description": "scattered clouds",
+      "Wind Speed": "3.6 Km per hour",
+      "Wind Direction degree": "270 Degree"
+    },
+    {
+      "City": "Kolkata",
+      "Temperature": "50.49 Degree celsius",
+      "Humidity": "78 Percent",
+      "Weather Description": "scattered clouds",
+      "Wind Speed": "9.6 Km per hour",
+      "Wind Direction degree": "870 Degree"
+    }
+  ],
+  "profile": {
+    "name": "typicode11"
+  },
+  "relation": {
+    "family": {
+      "test": [
+        {
+          "father": "baapi",
+          "maa": "neelima",
+          "sister": "bordi",
+          "brother": "tapu"
+        },
+        {
+          "father": "baapiAA",
+          "maa": "neelimaAA",
+          "sister": "bordiAA",
+          "brother": "tapuAA"
+        },
+        {
+          "father": "baapiBB",
+          "maa": "neelimaBB",
+          "sister": "bordiBB",
+          "brother": "tapuBB"
+        }
+      ]
+    },
+    "friends": {
+      "test1": [
+        {
+          "schoolfriend": "sutapa",
+          "collagefriend": "neelima",
+          "hostelfriend": "tanusree",
+          "phdfriend": "manju"
+        },
+        {
+          "schoolfriend": "chandana",
+          "collagefriend": "sujatha",
+          "hostelfriend": "kuntala",
+          "phdfriend": "sharmistha"
+        }
+      ]
+    }
+  }
+}
